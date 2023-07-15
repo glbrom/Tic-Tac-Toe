@@ -51,6 +51,9 @@
 		040075502A62AE4B005695FC /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
+				042EEC0C2A62B6B60002A880 /* ViewModel */,
+				042EEC0B2A62B6AE0002A880 /* View */,
+				042EEC0A2A62B6A80002A880 /* Model */,
 				040075512A62AE4B005695FC /* Tic_Tac_ToeApp.swift */,
 				040075532A62AE4B005695FC /* ContentView.swift */,
 				040075552A62AE4E005695FC /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				040075582A62AE4E005695FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042EEC0A2A62B6A80002A880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042EEC0B2A62B6AE0002A880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042EEC0C2A62B6B60002A880 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
