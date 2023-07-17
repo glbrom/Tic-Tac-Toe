@@ -17,7 +17,7 @@ struct GameLogicModel {
         moves = currentMove
         aiVM = PlayWithAIViewModel()
         
-        // Get human positions to block 
+        // Get human positions to block
         humanMoves = moves.compactMap { $0 }.filter { $0.player == .human }
         
         // Get computer positions to win
