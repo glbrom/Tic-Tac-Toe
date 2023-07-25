@@ -20,14 +20,14 @@ struct PlayWithFriendsView: View {
                 .frame(width: 1100, height: 900, alignment: .leading)
                 .clipped()
                 .ignoresSafeArea()
+            
             VStack {
-                Spacer()
                 ScorePlayersView(viewModel: ScoreViewPlayersModel.shared)
                 Spacer()
                 ZStack {
                     Rectangle()
                         .frame(height: 386)
-                        .background(.ultraThinMaterial)
+                        .foregroundColor(Color("BlurBackground"))
                         .cornerRadius(16)
                         .padding(-8)
                     LazyVGrid(columns: viewModel.columns, spacing: 10) {
