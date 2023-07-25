@@ -59,12 +59,12 @@ struct PlayWithAIView: View {
                         Spacer()
                     }
                 }
-                .padding(.vertical, 16)
+                .padding(.vertical, 8)
                 
                 ZStack {
                     Rectangle()
                         .frame(height: 386)
-                        .background(.ultraThinMaterial)
+                        .foregroundColor(Color("BlurBackground"))
                         .cornerRadius(16)
                         .padding(-8)
                     LazyVGrid(columns: viewModel.columns, spacing: 10) {
@@ -79,7 +79,6 @@ struct PlayWithAIView: View {
                         }
                     }
                 }
-                
                 Spacer()
             }
             .disabled(viewModel.isGameboardDisabled)
