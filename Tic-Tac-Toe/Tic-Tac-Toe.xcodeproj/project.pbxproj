@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		040075522A62AE4B005695FC /* Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040075512A62AE4B005695FC /* Tic_Tac_ToeApp.swift */; };
-		040075542A62AE4B005695FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040075532A62AE4B005695FC /* ContentView.swift */; };
+		040075542A62AE4B005695FC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040075532A62AE4B005695FC /* GameView.swift */; };
 		040075562A62AE4E005695FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040075552A62AE4E005695FC /* Assets.xcassets */; };
 		040075592A62AE4E005695FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040075582A62AE4E005695FC /* Preview Assets.xcassets */; };
+		042EEC0E2A62BB010002A880 /* PlayWithAIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC0D2A62BB010002A880 /* PlayWithAIModel.swift */; };
+		042EEC102A62BB170002A880 /* PlayWithFriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC0F2A62BB170002A880 /* PlayWithFriendsModel.swift */; };
+		042EEC122A62BB2E0002A880 /* GameLogicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC112A62BB2E0002A880 /* GameLogicModel.swift */; };
+		042EEC142A62BD840002A880 /* PlayWithAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC132A62BD840002A880 /* PlayWithAIViewModel.swift */; };
+		042EEC162A62BD9F0002A880 /* PlayWithFriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC152A62BD9F0002A880 /* PlayWithFriendsViewModel.swift */; };
+		042EEC182A62BE350002A880 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC172A62BE350002A880 /* AlertsView.swift */; };
+		042EEC1A2A62C8FF0002A880 /* PlayWithFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC192A62C8FF0002A880 /* PlayWithFriendsView.swift */; };
+		042EEC1C2A62C9100002A880 /* PlayWithAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC1B2A62C9100002A880 /* PlayWithAIView.swift */; };
+		042EEC1E2A62C9C60002A880 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC1D2A62C9C60002A880 /* DesignView.swift */; };
+		042EEC222A62F4E40002A880 /* ScoreAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC212A62F4E40002A880 /* ScoreAIView.swift */; };
+		042EEC242A62F5D90002A880 /* ScoreAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC232A62F5D90002A880 /* ScoreAIViewModel.swift */; };
+		042EEC262A62F6700002A880 /* ScorePlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC252A62F6700002A880 /* ScorePlayersViewModel.swift */; };
+		042EEC282A6313020002A880 /* ScorePlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC272A6313020002A880 /* ScorePlayersView.swift */; };
+		042EEC322A672EE50002A880 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEC312A672EE50002A880 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0400754E2A62AE4B005695FC /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040075512A62AE4B005695FC /* Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
-		040075532A62AE4B005695FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		040075532A62AE4B005695FC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		040075552A62AE4E005695FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040075582A62AE4E005695FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042EEC0D2A62BB010002A880 /* PlayWithAIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAIModel.swift; sourceTree = "<group>"; };
+		042EEC0F2A62BB170002A880 /* PlayWithFriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithFriendsModel.swift; sourceTree = "<group>"; };
+		042EEC112A62BB2E0002A880 /* GameLogicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogicModel.swift; sourceTree = "<group>"; };
+		042EEC132A62BD840002A880 /* PlayWithAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAIViewModel.swift; sourceTree = "<group>"; };
+		042EEC152A62BD9F0002A880 /* PlayWithFriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithFriendsViewModel.swift; sourceTree = "<group>"; };
+		042EEC172A62BE350002A880 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		042EEC192A62C8FF0002A880 /* PlayWithFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithFriendsView.swift; sourceTree = "<group>"; };
+		042EEC1B2A62C9100002A880 /* PlayWithAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithAIView.swift; sourceTree = "<group>"; };
+		042EEC1D2A62C9C60002A880 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		042EEC212A62F4E40002A880 /* ScoreAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAIView.swift; sourceTree = "<group>"; };
+		042EEC232A62F5D90002A880 /* ScoreAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAIViewModel.swift; sourceTree = "<group>"; };
+		042EEC252A62F6700002A880 /* ScorePlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePlayersViewModel.swift; sourceTree = "<group>"; };
+		042EEC272A6313020002A880 /* ScorePlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePlayersView.swift; sourceTree = "<group>"; };
+		042EEC312A672EE50002A880 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +79,11 @@
 		040075502A62AE4B005695FC /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
-				042EEC0C2A62B6B60002A880 /* ViewModel */,
-				042EEC0B2A62B6AE0002A880 /* View */,
 				042EEC0A2A62B6A80002A880 /* Model */,
+				042EEC0B2A62B6AE0002A880 /* View */,
+				042EEC0C2A62B6B60002A880 /* ViewModel */,
 				040075512A62AE4B005695FC /* Tic_Tac_ToeApp.swift */,
-				040075532A62AE4B005695FC /* ContentView.swift */,
+				042EEC312A672EE50002A880 /* SplashScreenView.swift */,
 				040075552A62AE4E005695FC /* Assets.xcassets */,
 				040075572A62AE4E005695FC /* Preview Content */,
 			);
@@ -73,6 +101,9 @@
 		042EEC0A2A62B6A80002A880 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				042EEC0F2A62BB170002A880 /* PlayWithFriendsModel.swift */,
+				042EEC0D2A62BB010002A880 /* PlayWithAIModel.swift */,
+				042EEC112A62BB2E0002A880 /* GameLogicModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -80,6 +111,13 @@
 		042EEC0B2A62B6AE0002A880 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				040075532A62AE4B005695FC /* GameView.swift */,
+				042EEC172A62BE350002A880 /* AlertsView.swift */,
+				042EEC192A62C8FF0002A880 /* PlayWithFriendsView.swift */,
+				042EEC1B2A62C9100002A880 /* PlayWithAIView.swift */,
+				042EEC1D2A62C9C60002A880 /* DesignView.swift */,
+				042EEC212A62F4E40002A880 /* ScoreAIView.swift */,
+				042EEC272A6313020002A880 /* ScorePlayersView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +125,10 @@
 		042EEC0C2A62B6B60002A880 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				042EEC132A62BD840002A880 /* PlayWithAIViewModel.swift */,
+				042EEC152A62BD9F0002A880 /* PlayWithFriendsViewModel.swift */,
+				042EEC232A62F5D90002A880 /* ScoreAIViewModel.swift */,
+				042EEC252A62F6700002A880 /* ScorePlayersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -107,6 +149,8 @@
 			dependencies = (
 			);
 			name = "Tic-Tac-Toe";
+			packageProductDependencies = (
+			);
 			productName = "Tic-Tac-Toe";
 			productReference = 0400754E2A62AE4B005695FC /* Tic-Tac-Toe.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +179,8 @@
 				Base,
 			);
 			mainGroup = 040075452A62AE4B005695FC;
+			packageReferences = (
+			);
 			productRefGroup = 0400754F2A62AE4B005695FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,8 +207,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040075542A62AE4B005695FC /* ContentView.swift in Sources */,
+				040075542A62AE4B005695FC /* GameView.swift in Sources */,
+				042EEC182A62BE350002A880 /* AlertsView.swift in Sources */,
+				042EEC262A62F6700002A880 /* ScorePlayersViewModel.swift in Sources */,
 				040075522A62AE4B005695FC /* Tic_Tac_ToeApp.swift in Sources */,
+				042EEC1A2A62C8FF0002A880 /* PlayWithFriendsView.swift in Sources */,
+				042EEC1C2A62C9100002A880 /* PlayWithAIView.swift in Sources */,
+				042EEC142A62BD840002A880 /* PlayWithAIViewModel.swift in Sources */,
+				042EEC322A672EE50002A880 /* SplashScreenView.swift in Sources */,
+				042EEC162A62BD9F0002A880 /* PlayWithFriendsViewModel.swift in Sources */,
+				042EEC282A6313020002A880 /* ScorePlayersView.swift in Sources */,
+				042EEC1E2A62C9C60002A880 /* DesignView.swift in Sources */,
+				042EEC0E2A62BB010002A880 /* PlayWithAIModel.swift in Sources */,
+				042EEC102A62BB170002A880 /* PlayWithFriendsModel.swift in Sources */,
+				042EEC222A62F4E40002A880 /* ScoreAIView.swift in Sources */,
+				042EEC122A62BB2E0002A880 /* GameLogicModel.swift in Sources */,
+				042EEC242A62F5D90002A880 /* ScoreAIViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +357,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +387,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
